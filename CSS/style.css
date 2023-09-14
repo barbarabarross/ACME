@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+    font-family: 'Poppins', sans-serif;
+}
+
+.fonteBebas {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+body{
+    background-color: #e6e6fa;
+    color: rgb(30, 30, 99);
+}
+
+header{
+    
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    letter-spacing: 0.1rem;
+    text-shadow: 1px 2px rgb(245, 129, 61);
+}
+
+nav{
+    background-color: rgb(252, 143, 18);
+    height: 8vh;
+    display: flex;
+    justify-content: space-evenly;/* Alinhamento horizontal */
+    align-items: center;/* Alinhamento vertical */
+    text-shadow: 1px 2px rgb(20, 20, 44);
+
+    border-top: 3px solid rgb(5, 55, 129);
+    border-bottom: 3px solid rgb(5, 55, 129);
+}
+
+nav a {
+    text-decoration: none;
+    color: #111;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    text-shadow: 0 1px rgb(35, 113, 230);
+    transition: .5s;
+}
+
+nav a:hover{
+    color: rgb(8, 26, 182);
+    text-shadow: -6px -3px 3px rgb(71, 42, 230);
+    border-bottom: 3px solid rgb(4, 4, 116);
+
+}
+main{
+    width: 100%;
+}
+
+main article{
+    
+    padding-left: 16px;
+}
+
+main article h2{
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+span.company{
+    color: rgb(252, 97, 8);
+}
+
+ul {
+    margin-left: 30%;
+    width: 40%;
+    margin-right: 30%;
+}
+
+li.alternative {
+    font-style: italic;
+    color: #060642;
+
+}
+
+footer{
+    margin-top: 64px;
+    text-align: right;
+    padding-right: 16px;
+    border-top: 3px solid #ccc;
+    line-height: 32px; /* Altura da */
+}
